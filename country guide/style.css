@@ -79,3 +79,13 @@ h1{
     position: relative;
     bottom:5rem;
 }
+#no{
+    color:red;
+    position:relative;
+    bottom:4rem;
+    font-size:large;
+    visibility: hidden;
+}
+#flag{
+    visibility: hidden;
+}
