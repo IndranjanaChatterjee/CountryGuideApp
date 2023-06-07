@@ -9,7 +9,7 @@ search.addEventListener("click", () => {
     }
     else {
         document.getElementById("no").style.visibility="hidden";
-        let url = `https://restcountries.com/v3.1/name/${country}?fullText=true`;
+        let url = `your url`;
         let p = fetch(url);
         p.then((value) => {
             return (value.json());
